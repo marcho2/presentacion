@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(211, 207, 226);
+    background-color: #4b1c71;
 }
 
 .container{
@@ -19,8 +19,29 @@ body{
     border-radius: 50%;
 }
 header {
-    background: #rgb(0, 0,0);
+    background: #572975;
+    color: #fffefe;
     padding-top: 30px;
     min-height: 70px;
     text-align: center;
+}
+
+.hobbies{
+background: #957698;
+color: beige;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.presentacion{
+    background: #8a5390;
+    color: beige;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.aprendizaje{
+    background: #8a5390;
+    color: beige;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
