@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(211, 207, 226);
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+
+.nombre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
