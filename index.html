@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <Header class="container">
-        <h1 class="nombre">
-            Sebastian Marchant
-        </h1>
-        <img class="foto" src="foto.jpg" alt="Sebita">
-    </Header>
+    <img class="logo-container" src="logo.svg" alt="Universidad Autónoma de Chile">
+    <header class="container">
+        <img src="foto.jpg" alt="Sebastian Marchant" class="foto">
+        <h1 class="nombre">Sebastian Marchant</h1>
+    </header>
     <main>
-        <section class="presentacion">
-            <h3>Sobre mi</h3>
-            <p>Me llamo Sebastian Marchant, naci en Temuco, Chile, estudio Ingenieria civil Informatica en la Universidad Autonoma de Chile.</p>
-        </section>
-        <Section class="hobbies">
-            <h3>Mis Hobbies</h3>
-            <p>-Cocinar <br>
-            -Visitar cafeterias    <br>
-            -Aprender Cosas nuevas <br>
-            -Salir a caminar
+        <nav>
+            <ul>
+                <li><a href="#Sobre-mi">Sobre mi</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#Conocimientos">Conocimientos</a></li>
+            </ul>
+        </nav>
+        <article id="Sobre-mi" class="presentacion">
+            <h2>Sobre mi</h2>
+            <p>Me llamo Sebastian Marchant, nací el 2 de marzo de 2003 en  Temuco, Chile. Estudio Ingeniería Civil Informática en la Universidad Autónoma de Chile, nivel 6.</p>
+        </article>
+        <article id="hobbies" class="hobbies">
+            <h2>Mis Hobbies</h2>
+            <p>- Cocinar <br>
+               - Visitar cafeterías <br>
+               - Aprender cosas nuevas <br>
+               - Salir a caminar
             </p>
-        </Section>
+        </article>
+        <article id="Conocimientos" class="aprendizaje">
+            <h2>Mis Conocimientos</h2>
+            <p>Partí aprendiendo sobre el manejo y armado de computadores, luego aprendi Python y java enfocado a Programacion Orientada a Objetos, manejo de bases de datos SQL, Cisco Packet tracer, manejo basico de Estadistica en Excel, y en este momento estoy aprendiendo sobre desarrollo web, HTML, CSS, proximamente JavaScript y en un futuro no muy lejano comenzare a aprender Swift para desarrollo de aplicaciones moviles. </p>
+        </article>
     </main>
+    <footer>
+        <p><small>© Sebastian Marchant</small></p>
+        <p class="año"><small>2024</small></p>
+    </footer>
 </body>
 </html>
