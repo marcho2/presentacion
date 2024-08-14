@@ -1,5 +1,5 @@
 body{
-    background-color: #4b1c71;
+    background-color: rgb(174, 134, 212);
 }
 
 .container{
@@ -11,19 +11,25 @@ body{
 
 .nombre{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    
 }
 
 
 .foto{
-    width: 30%;
+    width: 20%;
     border-radius: 50%;
 }
+
+
 header {
     background: #572975;
     color: #fffefe;
     padding-top: 30px;
     min-height: 70px;
     text-align: center;
+    justify-content: center;
 }
 
 .hobbies{
@@ -40,8 +46,35 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 .aprendizaje{
-    background: #8a5390;
+    background: rgb(179, 82, 155);
     color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+    background: bisque;
+    display: flex;
+    justify-content: space-between;
+    color: #957698;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.logo-container {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1000;
+    height: 50px;
+    width: auto;
+}
+nav{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.año{
+    text-align: right;
+    position: relative;
+    
 }
