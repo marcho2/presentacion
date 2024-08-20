@@ -1,3 +1,8 @@
+:root{
+    --text_color: beige;
+    --primary_color: rgb(174, 134, 212);
+    --secondary_color: #572975;
+}
 body{
     background-color: rgb(174, 134, 212);
 }
@@ -24,8 +29,8 @@ body{
 
 
 header {
-    background: #572975;
-    color: #fffefe;
+    background: var(--secondary_color);
+    color: var(--text_color);
     padding-top: 30px;
     min-height: 70px;
     text-align: center;
@@ -34,20 +39,20 @@ header {
 
 .hobbies{
 background: #957698;
-color: beige;
+color: var(--text_color);
 text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .presentacion{
     background: #8a5390;
-    color: beige;
+    color: var(--text_color);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 .aprendizaje{
     background: rgb(179, 82, 155);
-    color: beige;
+    color: var(--text_color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 
