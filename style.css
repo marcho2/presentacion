@@ -82,7 +82,7 @@ footer{
 }
 nav{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-new-amsterdam);
 }
 .nav-pills .nav-link {
     background-color: var(--secondary_color); /* Color de fondo de las pestañas */
