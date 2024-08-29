@@ -2,9 +2,15 @@
     --text_color: beige;
     --primary_color: rgb(174, 134, 212);
     --secondary_color: #572975;
+    --font-new-amsterdam: 'New Amsterdam', sans-serif;
 }
+html {
+    font-family: var(--font-new-amsterdam);
+}
+
 body{
-    background-color: rgb(174, 134, 212);
+    background-color: var(--primary_color)!important;
+    font-family: var(--font-new-amsterdam);
 }
 
 .container{
@@ -15,21 +21,24 @@ body{
 }
 
 .nombre{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-new-amsterdam);
     text-align: center;
-    font-size: 24px;
-    
+    font-size: 24px;    
 }
 
+.hobbies, .presentacion, .aprendizaje {
+    font-family: var(--font-new-amsterdam); /* Aplicar la fuente personalizada */
+}
 
 .foto{
     width: 20%;
     border-radius: 50%;
+    text-align: center;
 }
 
 
 header {
-    background: var(--secondary_color);
+    background: var(--secondary_color)!important;
     color: var(--text_color);
     padding-top: 30px;
     min-height: 70px;
@@ -41,19 +50,16 @@ header {
 background: #957698;
 color: var(--text_color);
 text-align: center;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .presentacion{
     background: #8a5390;
     color: var(--text_color);
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 .aprendizaje{
     background: rgb(179, 82, 155);
     color: var(--text_color);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 
 }
@@ -63,7 +69,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #957698;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: var(--font-new-amsterdam);
 }
 .logo-container {
     position: fixed; 
@@ -71,12 +77,24 @@ footer{
     right: 0;
     padding: 10px;
     z-index: 1000;
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 nav{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+.nav-pills .nav-link {
+    background-color: var(--secondary_color); /* Color de fondo de las pestañas */
+    color: var(--text_color); /* Color del texto de las pestañas */
+    margin: 0 5px; /* Espacio entre los enlaces */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary_color); /* Color de fondo de la pestaña activa */
+    color: var(--text_color); /* Color del texto de la pestaña activa */
 }
 .año{
     text-align: right;
